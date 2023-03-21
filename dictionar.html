@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <title>Dictionar</title>
+  <script src="C:\Users\valer\OneDrive\Desktop\studio\Dictionar.js"></script>
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="card" style="width: 30rem;">
+      <div class="card-body">
+        <h1>Dictionar</h1>
+      </div>
+    </div>
+    <div class="card" style="width: 30rem;">
+      <div class="card-body">
+        <label for="name">add word to dictionar</label>
+
+        <input type="text" id="inputWord" name="name" required size="10">
+        <p></p>
+        <button onclick="add()" name="button">add</button>
+      </div>
+      <div class="card-body">
+        <label for="name">find word in dictionar</label>
+
+        <input type="text" id="inputWordsToFind" name="name" required size="10">
+        <p></p>
+        <button onclick="find1()" name="button">find</button>
+      </div>
+    </div>
+    <div id="output" class="card" style="width: 30rem;">
+      <div class="card-body">
+
+      </div>
+    </div>
+  </div>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+</body>
+
+</html>
